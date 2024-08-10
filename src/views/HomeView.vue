@@ -12,6 +12,7 @@ import Game from '../components/BingoGame.vue'
     </header>
     <main>
       <Game />
+      <p>left-click to add to your progress count. right-click to decrement</p>
     </main>
     <footer style="text-align: end">
       star this project on<OutsideLink href="https://github.com/teremich/csgobingo"
