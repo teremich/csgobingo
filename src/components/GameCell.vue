@@ -23,8 +23,11 @@ td {
 .X {
   position: absolute;
   font-size: 50px;
-  left: 5px;
-  top: 5px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  left: 0;
+  top: 0;
   display: none;
 }
 .completed > .X {
@@ -52,7 +55,6 @@ p {
   }
   .X {
     font-size: 64pt;
-    left: 30px;
     top: -10%;
   }
 }
