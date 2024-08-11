@@ -6,7 +6,7 @@ import Game from '../components/BingoGame.vue'
 <style scoped></style>
 
 <template>
-  <div id="body" style="">
+  <div id="body">
     <header style="color: rgb(255, 140, 0)">
       <nav><h1>COUNTER-STRIKE BINGO</h1></nav>
     </header>
