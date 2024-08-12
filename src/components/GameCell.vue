@@ -35,6 +35,9 @@ td {
 .completed > .X {
   display: unset;
 }
+.started {
+  border: white 3px solid;
+}
 p {
   text-align: center;
   color: var(--color-text);
@@ -65,7 +68,7 @@ p {
 <template>
   <td
     style="position: relative"
-    :class="{ completed: progress == state.goal, win: state.win }"
+    :class="{ completed: progress == state.goal, win: state.win, started: progress > 0 }"
     @click="
       function () {
         progress = Math.min(progress + 1, state.goal)
