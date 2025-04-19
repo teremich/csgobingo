@@ -1,7 +1,7 @@
 const fields = [
   { text: 'Wallbang', goal: 1 },
   { text: 'Graffiti at enemy spawn', goal: 1 },
-  { text: '5 bombs planted or defused', goal: 5 },
+  { text: '5 bombs plan­ted or defused', goal: 5 },
   { text: '>60% headshot rate', goal: 1 },
   { text: '10 assists', goal: 10 },
   { text: '>20 enemies flashed', goal: 1 },
