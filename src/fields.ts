@@ -6,7 +6,7 @@ const fields = [
   { text: '10 assists', goal: 10 },
   { text: '>20 enemies flashed', goal: 1 },
   { text: 'Top fragger at end of match', goal: 1 },
-  { text: '10 kills on CT side', goal: 10 },
+  { text: '8 kills on CT side', goal: 8 },
   { text: 'Ace', goal: 1 },
   { text: '>200 utility damage', goal: 1 },
   { text: 'Kill with a knife', goal: 1 },
@@ -15,7 +15,7 @@ const fields = [
   { text: '2 kills with Negev', goal: 2 },
   { text: '2 kills with Grenades', goal: 2 },
   { text: 'Kill through a Smoke', goal: 1 },
-  { text: '10 kills on T side', goal: 10 },
+  { text: '8 kills on T side', goal: 8 },
   { text: 'Kill with a Zeus', goal: 1 },
   { text: '>69 ADR', goal: 1 },
   { text: 'Bottom fragger at end of match', goal: 1 },
@@ -26,9 +26,9 @@ const fields = [
   { text: 'M4 3K', goal: 1 },
   { text: '5 kills with Famas', goal: 5 },
   { text: '5 kills with Galil', goal: 5 },
-  { text: '5 kills with Pistol', goal: 5 },
-  { text: '3 kills with Shotgun', goal: 2 },
-  { text: 'Overtime', goal: 1 },
+  { text: '4 kills with Pistol', goal: 4 },
+  { text: '4 kills with Shotgun', goal: 4 },
+  { text: 'Overtime or draw', goal: 1 },
   { text: 'Suicide', goal: 1 }
 ]
 export default fields
